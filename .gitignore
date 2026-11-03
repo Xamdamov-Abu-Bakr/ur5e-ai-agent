@@ -1,0 +1,26 @@
+# Python bytecode / test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local runtime environments and private settings
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Robot execution records and diagnostics (may include local poses and cell details)
+approval/
+reports/
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
