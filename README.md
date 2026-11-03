@@ -56,9 +56,9 @@ All arithmetic (poses, deltas, arcs, polygon corners) is done by software, not b
 
 ## Technical documentation
 
-[**Read the 29-page engineering report (PDF)**](docs/UR5e_AI_Motion_Planner_Technical_Documentation_v2.1.pdf) — architecture, geometry, local AI integration, kinematics, validation, communication and execution states.
+[**Read the 29-page engineering report (PDF)**](docs/UR5e_AI_Motion_Planner_Technical_Documentation_v2.2.pdf) — architecture, geometry, local AI integration, kinematics, validation, communication, physical testing and execution states.
 
-**Version note:** the report describes a different code snapshot from this release. In particular, the current source implements `base_rotate`, a wider workspace, a separate base keep-out check and the `/robot fixed` option with route retracing. The executable source and `limits.py` are authoritative for this publication; the report is retained unchanged as an engineering reference.
+**Version note:** This v2.2 report documents the current public implementation, including automatic reach-based target adjustment, source-aligned validation and AI review, `base_rotate`, workspace and base keep-out checks, and execution confirmation behavior. Historical verification results are explicitly distinguished from current implementation claims.
 
 ## Project structure
 
